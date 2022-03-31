@@ -1,0 +1,42 @@
+<!doctype html> 
+<html>
+
+	<head>
+                <meta charset="utf-8" />
+		<title>Média repetitiva</title>
+		<script>
+
+var nota1 = parseInt(prompt("Digite a primeira nota:"));
+            var nota2 = parseInt(prompt("Digite a segunda nota:"));
+            var mediaFinal = [];
+
+            var media = (nota1+nota2)/2;
+
+            var alunosAprovados = 0;
+            var outroAluno = prompt("Calcular a média de outro aluno Sim/Não?");
+            var media2 = (nota1+nota2)/2;
+
+            while (outroAluno="S"){
+                nota1 = parseInt(prompt("Digite a primeira nota"));
+                nota2 = parseInt(prompt("Digite a segunda nota"));
+            }
+            if(media>=6) {
+            alunosAprovados = alunosAprovados+1;
+            mediaFinal.push(media); }
+            
+         
+            if (outroAluno="N")
+            document.write("Alunos Aprovados: " +alunosAprovados);
+            document.write("   ||| Média Final:"+mediaFinal); 
+            </script>
+
+	</head>
+	<body>
+		
+
+	</body>
+
+
+
+
+</html>	
